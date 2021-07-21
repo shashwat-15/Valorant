@@ -18,11 +18,11 @@
                         </select>
                     </div>
                     <div class="col-4"></div>
-                    <div class="col-2">
+                    <div class="col-2 offset-1">
                         <i class="fal fa-star pr-2"></i>
                         REVIEWS
                     </div>
-                    <div class="col-3">
+                    <div class="col-2">
                         <i class="fal fa-user pr-2"></i>
                         LOGIN
                     </div>

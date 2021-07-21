@@ -19,7 +19,7 @@
                         <img src="images/iron1.png" alt="" style="object-fit:contain; width:100%; height:100%;">
                     </div>
                     <div class="col">
-                        <div class="row">
+                        <div class="row" style="display:flex; width:100%;">
                             <div class="col new-select-div pr-0">
                                 <label for="current-tier" style="color:#fff">Current Tier</label>
                                 <select class="custom-select" id="current-tier" name="current-tier">

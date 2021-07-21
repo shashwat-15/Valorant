@@ -1,0 +1,16 @@
+.checkout {
+    color: #fff;
+}
+
+.checkout input, .checkout textarea {
+    background-color:#141417;
+    color:#fff;
+}
+
+.vl {
+    position:absolute;
+    top:0;
+    right:0;
+    height: 100%;
+    border: 1px solid black;
+}

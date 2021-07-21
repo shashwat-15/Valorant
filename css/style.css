@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Valorant';
+    src: URL('../fonts/Valorant Font.ttf') format('truetype');
+}
+body {
+    font-family: 'Saira', sans-serif;
+}
+h1 {
+    font-family: 'Valorant', Fallback, sans-serif;
+    font-size: 3.5em;
+}
+div.header-img-container {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: rgb(75,175,253); background: linear-gradient(90deg, rgba(75,175,253,1) 0%, rgba(3,239,253,1) 100%);
+}
+
+div.header-img-container > img {
+    width: 100%;;
+    height: 100%;
+    object-fit:cover;
+    mix-blend-mode: darken;
+    /* object-position: 0px -20px; */
+    object-position: 0px -100px;
+    transform: scale(0,0,0.5);
+}
+

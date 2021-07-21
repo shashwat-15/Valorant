@@ -1,0 +1,63 @@
+
+.agent-container {
+  cursor: pointer;
+}
+
+.agent-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 1, 0.63);
+}
+
+.agent-container-active {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 1, 0.63);
+}
+
+h4 {
+  font-style:italic;
+}
+
+span.special-percentages {
+  height: 10px; 
+  width: 15px; 
+  border-radius: 10px; 
+  background-color:#db1761; 
+  text-align:center; 
+  font-size:11px;
+}
+
+.vertical-line {
+  border-left: 3px solid #db1761;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+}
+
+.dot {
+  position: absolute;
+  content: "";
+  height: 7px;
+  width: 7px;
+  left: 49.868%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  bottom: -25px;
+  border-radius: 5px;
+  background-color: #db1761;
+}
+
+.dot2 {
+  position: absolute;
+  content: "";
+  height: 7px;
+  width: 7px;
+  left: 49.865%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  bottom: -55px;
+  border-radius: 5px;
+  background-color: #db1761;
+}

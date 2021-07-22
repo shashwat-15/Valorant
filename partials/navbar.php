@@ -1,5 +1,6 @@
-<link rel="stylesheet" href="css/navbar.css">
 <link rel="stylesheet" href="css/combobox2.css">
+<link rel="stylesheet" href="css/modal.css">
+<link rel="stylesheet" href="css/navbar.css">
 <div class="fixed-top horizontal-rectangle" id="nav">
     <div class="container">
         <div class="row">
@@ -18,12 +19,14 @@
                         </select>
                     </div>
                     <div class="col-4"></div>
-                    <div class="col-3">
-                        <i class="fal fa-star pr-2"></i>
+                    <div class="col-2 offset-1">
+                        <a href="reviews.php">
+                        <i class="fal fa-star"></i>
                         REVIEWS
+                        </a>
                     </div>
-                    <div class="col-3">
-                        <i class="fal fa-user pr-2"></i>
+                    <div class="col-2 login-btn" style="cursor:pointer">
+                        <i class="fal fa-user"></i>
                         LOGIN
                     </div>
                 </div>
@@ -31,4 +34,22 @@
         </div>
     </div>
 </div>
+<div id="myModal2" class="modal">
+    <div class="modal-content">
+        <div class="row">
+            <div class="col">
+                <span class="close" style="color:#fff">&times;</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <!-- <h5 style="color: #fff">Welcome to <strong>Valorant Boosting</strong></h5> -->
+            </div>
+        </div>
+        <!-- <div class="box-model pt-1"> -->
+            
+        <!-- </div> -->
+    </div>
+</div>
+<script src="js/modal2.js"></script>
 <script src="js/navbar.js"></script>

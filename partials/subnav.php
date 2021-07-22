@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="css/subnav.css">
 <div class="sub-nav">
-    <div style="width:42%;">
+    <div>
     <div class="row ml-5">
         <div class="col">
         <!-- <div class="col-4">   -->

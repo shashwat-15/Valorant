@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="css/login.css">
-<div class="login-container" id="login-container">
+<div class="login-container" id="login-container" style="font-size:14px;">
 	<div class="form-container sign-up-container">
 		<form action="#">
 			<h1>Create Account</h1>
@@ -12,6 +12,7 @@
 			<input class="login-input" type="text" placeholder="Name" />
 			<input class="login-input" type="email" placeholder="Email" />
 			<input class="login-input" type="password" placeholder="Password" />
+			<input class="login-input" type="password" placeholder="Confirm Password" />
 			<button class="login-btn">Sign Up</button>
 		</form>
 	</div>

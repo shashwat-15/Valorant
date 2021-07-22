@@ -19,7 +19,7 @@
                         <img src="images/iron1.png" alt="" style="object-fit:contain; width:100%; height:100%;">
                     </div>
                     <div class="col">
-                        <div class="row">
+                        <div class="row" style="display:flex; width:100%;">
                             <div class="col new-select-div pr-0">
                                 <label for="current-tier" style="color:#fff">Current Tier</label>
                                 <select class="custom-select" id="current-tier" name="current-tier">
@@ -201,7 +201,7 @@
                                 <div class="agent-img-container" style="background-color:#db1761;height:100px; width:100px; margin:0 auto; border-radius: 12px;">
                                     <img src="images/<?= $agentImages[$i]?>" alt="" style="object-fit:contain; width:100%; height: 100%;  border-radius: 12px;">
                                 </div>
-                                <h6 class="pt-2 agent-name" style="text-align:center"><span class="agent-check" style="display:none;"><i class="fal fa-check-circle" style="background-color: #db1761; border-radius:100%;"></i></span>  <?= $agentNames[$i]?></h6>
+                                <h6 class="pt-2 agent-name" style="text-align:center"><span class="agent-check" style="display:none;"><i class="fas fa-check-circle" style="color: #db1761;"></i></span>  <?= $agentNames[$i]?></h6>
                             </div>
                         </div>
                         <?php }?>

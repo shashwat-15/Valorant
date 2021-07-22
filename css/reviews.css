@@ -1,0 +1,28 @@
+/* --------------Pagination---------------------------- */
+
+.active a {
+    background: rgb(249,22,77) !important; 
+    background: linear-gradient(90deg, rgba(249,22,77,1) 0%, rgba(174,22,131,1) 100%) !important;
+    color: #fff !important;
+    border-color: #db1761 !important;
+    border-width: 1px;
+  }
+  
+  .pagination-container a:focus,
+  .pagination-container a:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  .disabled {
+    pointer-events: none;
+    opacity: 0.4;
+  }
+  
+  #submit-review {
+    background: rgb(249,22,77); 
+    background: linear-gradient(90deg, rgba(249,22,77,1) 0%, rgba(174,22,131,1) 100%);
+    position: absolute;
+    right:20px;
+    bottom:40px;
+  }

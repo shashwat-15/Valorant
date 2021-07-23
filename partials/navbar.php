@@ -37,9 +37,6 @@
 <div id="myModal2" class="modal">
     <div class="modal-content">
         <div class="row">
-            <div class="col">
-                <span class="close" style="color:#fff">&times;</span>
-            </div>
         </div>
         <div class="row">
             <div class="col text-center">
@@ -51,5 +48,5 @@
         <!-- </div> -->
     </div>
 </div>
-<script src="js/modal2.js"></script>
+
 <script src="js/navbar.js"></script>

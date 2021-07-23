@@ -1,62 +1,72 @@
-.agent-container {
-  cursor: pointer;
+.placement-container {
+  font-size:14px; color: #FFF; margin-top: 100px;
 }
 
-.agent-container:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 1, 0.63);
-  }
-  
-.agent-container-active {
-  transform: translateY(-5px);
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 1, 0.63);
+.placement-container label {
+  color:#fff;
 }
 
-  h4 {
+.placement-container h4 {
     font-style:italic;
-  }
+    text-align: center;
+}
 
-  span.special-percentages {
-    height: 10px; 
-    width: 15px; 
-    border-radius: 10px; 
-    background-color:#db1761; 
-    text-align:center; 
-    font-size:11px;
-  }
+.placement-container span.highlight {
+  color: #db1761;
+}
 
-  .vertical-line {
-      border-left: 3px solid #db1761;
-      height: 30px;
-      position: absolute;
-      left: 50%;
-      bottom: -45px;
-      transform: translateX(-50%);
-      transform: translateY(-50%);
-  }
+.placement-container div.last-matches {
+  width: 100%; 
+  height: 150px; 
+  border-radius: 15px; 
+  background-color: #1e2023; 
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 1, 0.63);
+  display: flex; 
+  align-items:center;
+}
 
-  .dot {
+.placement-container div.img-container {
+  height: 100px;
+}
+
+.placement-container div.img-container img {
+  object-fit:contain; 
+  width:100%; 
+  height:100%;
+}
+
+.vertical-line {
+    border-left: 3px solid #db1761;
+    height: 30px;
     position: absolute;
-    content: "";
-    height: 7px;
-    width: 7px;
-    left: 49.868%;
+    left: 50%;
+    bottom: -45px;
     transform: translateX(-50%);
     transform: translateY(-50%);
-    bottom: -5px;
-    border-radius: 5px;
-    background-color: #db1761;
-  }
+}
 
-  .dot2 {
-    position: absolute;
-    content: "";
-    height: 7px;
-    width: 7px;
-    left: 49.865%;
-    transform: translateX(-50%);
-    transform: translateY(-50%);
-    bottom: -35px;
-    border-radius: 5px;
-    background-color: #db1761;
-  }
+.dot {
+  position: absolute;
+  content: "";
+  height: 7px;
+  width: 7px;
+  left: 49.868%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  bottom: -5px;
+  border-radius: 5px;
+  background-color: #db1761;
+}
+
+.dot2 {
+  position: absolute;
+  content: "";
+  height: 7px;
+  width: 7px;
+  left: 49.865%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  bottom: -35px;
+  border-radius: 5px;
+  background-color: #db1761;
+}

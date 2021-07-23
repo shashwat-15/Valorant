@@ -14,7 +14,8 @@
 <link rel="stylesheet" href="css/combobox.css">
 <link rel="stylesheet" href="css/reviews.css">
 <div class="container" style="font-size:14px; color: #FFF; margin-top: 100px;">
-    <div class="" style="width:75%; margin:0 auto; height: 150px; border-radius: 15px; background-color: #1e2023; box-shadow: 0px 5px 10px 0px rgba(0, 0, 1, 0.63);">    
+    <?php if($loggedin){?>
+    <div style="width:75%; margin:0 auto; height: 150px; border-radius: 15px; background-color: #1e2023; box-shadow: 0px 5px 10px 0px rgba(0, 0, 1, 0.63);">    
         <div class="row pt-4 ml-2 mr-2">
             <div class="col">
             <form action="" method="post">
@@ -22,16 +23,14 @@
                     <textarea id="allergy-details" name="allergy-details" cols="95" rows="5" placeholder="Write a review..." style="background-color: #141417; text-indent:5px; color:#fff; border-radius:3px;"></textarea>
                     <button type="submit" id="submit-review" name="submit-review" class="btn">Submit</button>
                 </div>
-                <div class="form-group row">
-                    
-                </div>
             </form>
             </div>
         </div>
     </div>
+    <?php }?>
     <br/>
     <?php for($i=0; $i<count($users); $i++) {?>
-        <div class="" style="width:75%; margin:0 auto; height: 150px; border-radius: 15px; background-color: #1e2023; box-shadow: 0px 5px 10px 0px rgba(0, 0, 1, 0.63);">    
+        <div style="width:75%; margin:0 auto; height: 150px; border-radius: 15px; background-color: #1e2023; box-shadow: 0px 5px 10px 0px rgba(0, 0, 1, 0.63);">    
             <div class="row pt-4 ml-2 mr-2">
                 <div class="col-2">
                     <span style="font-size:16px; color: #fff;"><strong><?= $users[$i] ?></strong> <i class="fas fa-badge-check" style="color:#db1761;"></i></span>
@@ -93,6 +92,6 @@
 </div>
 </div>
 
-
+<script src="js/modal.js"></script>
 <script src="js/combobox.js"></script>
 <script src="js/reviews.js"></script>

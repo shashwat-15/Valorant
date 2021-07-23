@@ -2,9 +2,7 @@
     $page = "placement";
     include "./partials/header.php";
 ?>
-<link rel="stylesheet" href="css/combobox.css">
-<link rel="stylesheet" href="css/slider.css">
-<link rel="stylesheet" href="css/switch.css">
+
 <link rel="stylesheet" href="css/placement.css">
 <div class="container placement-container">
     <div class="row">
@@ -82,7 +80,6 @@ if($loggedin){
     include "checkout-modal.php";
 } 
 ?>
-<script src="js/combobox.js"></script>
-<script src="js/slider.js"></script>
-<script src="js/modal.js"></script>
+
+<script src="js/script.js"></script>
 <script src="js/placement.js"></script>

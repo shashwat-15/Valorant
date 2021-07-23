@@ -1,3 +1,21 @@
+const agentCheckIcons = document.querySelectorAll(".agent-check");
+const agentContainers = document.querySelectorAll(".agent-container");
+const agentNames = document.querySelectorAll(".agent-name");
+const selectedAgents = [];
+for(let i =0; i< agentContainers.length; i++){
+    agentContainers[i].addEventListener('click', function() {
+        this.classList.toggle("agent-container-active");
+        if(this.querySelector(".agent-check").style.display === "none"){
+            this.querySelector(".agent-check").style.display = "inline";
+            selectedAgents.push(this.querySelector(".agent-name").innerText.trim());
+        }
+        else{
+            this.querySelector(".agent-check").style.display = "none";
+            selectedAgents.splice(selectedAgents.indexOf(this.querySelector(".agent-name").innerText.trim()), 1);
+        }
+    });
+} 
+
 let $styledSelectValues = [];
 $('select').each(function(){
    
@@ -268,7 +286,93 @@ $('select').each(function(){
         $list.hide();
         $(".select").css("border-color", "rgb(208, 208, 208)");
     });
-
-    
-
 });
+
+const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('login-container');
+
+signUpButton.addEventListener('click', () => {
+	container.classList.add("right-panel-active");
+});
+
+signInButton.addEventListener('click', () => {
+	container.classList.remove("right-panel-active");
+});
+
+const modal = document.getElementById("myModal");
+const modal2 = document.getElementById("myModal2");
+
+// Get the button that opens the modal
+const btn = document.querySelectorAll(".checkout-btn")[0];
+const btn2 = document.querySelector(".login-btn");
+
+// Get the <span> element that closes the modal
+// var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+if(modal !== null && btn !=null){
+  btn.onclick = () => {
+    modal.style.display = "block";
+  }
+}
+if(modal2 !== null && btn2 !=null){
+  btn2.onclick = () => {
+    modal2.style.display = "block";
+  }
+}
+
+// When the user clicks on <span> (x), close the modal
+// span.onclick = function() {
+//   modal.style.display = "none";
+// }
+
+// When the user clicks anywhere outside of the modal, close it
+if(modal !== null || modal2 !==null){
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+    if (event.target == modal2) {
+      modal2.style.display = "none";
+    }
+  }
+}
+
+window.addEventListener('scroll', function () {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          document.getElementById("nav").style.backgroundColor = "#181b1d";
+      } else {
+          document.getElementById("nav").style.background = "transparent";
+      }
+  });
+
+  let specialIcons = document.querySelectorAll(".special-icons");
+let sliders = document.querySelectorAll(".slider");
+for(let i = 0; i< sliders.length; i++){
+    sliders[i].addEventListener('click', () => {
+        if(specialIcons[i].style.display === "none"){
+            specialIcons[i].style.display = "block";
+        }
+        else{
+            specialIcons[i].style.display = "none";
+        }
+    });
+}
+
+let links = document.querySelectorAll(".sub-nav a");
+for(let i =0; i<links.length; i++){
+    if(!links[i].classList.contains("btn-primary")){
+        links[i].addEventListener('mouseover', () => {
+        // links[i].classList.add("btn");
+            links[i].classList.add("btn-primary");
+            //console.log("uo");
+        });
+        links[i].addEventListener('mouseout', () => {
+        // links[i].classList.remove("btn");
+            links[i].classList.remove("btn-primary");
+            //console.log("uo");
+        });
+    }
+}
+

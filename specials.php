@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/specials.css">
+
 <h4><span class="highlight">SPECIALS</span></h4>
 <div class="specials">
     <div class="row justify-content-between pt-4 pl-4">
@@ -38,4 +38,3 @@
         </div>
     </div>
 </div>
-<script src="js/specials.js"></script>

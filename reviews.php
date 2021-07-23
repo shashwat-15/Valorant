@@ -11,7 +11,7 @@
         "Really quick and communicated well", "Worked directly with me to give a quick and safe boost. Highly recommend!", 
         "Very good player and nice guy 11/10 would smash again", "Nice and really good!"];
 ?>
-<link rel="stylesheet" href="css/combobox.css">
+
 <link rel="stylesheet" href="css/reviews.css">
 <div class="container" style="font-size:14px; color: #FFF; margin-top: 100px;">
     <?php if($loggedin){?>
@@ -92,6 +92,6 @@
 </div>
 </div>
 
-<script src="js/modal.js"></script>
-<script src="js/combobox.js"></script>
+
+<script src="js/script.js"></script>
 <script src="js/reviews.js"></script>

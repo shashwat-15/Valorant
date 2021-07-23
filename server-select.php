@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/server-select.css">
+
 <div class="row">
     <div class="col-8">
         <h4>SELECT YOUR <span class="highlight">SERVER</span></h4>

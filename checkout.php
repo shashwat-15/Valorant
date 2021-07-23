@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/checkout.css">
+
 <div class="container checkout">
     <div class="row">
         <div class="col-4" style="text-align:center;">

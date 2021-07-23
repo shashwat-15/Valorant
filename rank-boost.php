@@ -2,8 +2,6 @@
     $page = "rankBoost";
     include "./partials/header.php";
 ?>
-<link rel="stylesheet" href="css/combobox.css">
-<link rel="stylesheet" href="css/switch.css">
 <link rel="stylesheet" href="css/rankboost.css">
 <div class="container rankboost-container">
     <div class="row">
@@ -118,6 +116,5 @@ if($loggedin){
 } 
 ?>
 
-<script src="js/modal.js"></script>
-<script src="js/combobox.js"></script>
+<script src="js/script.js"></script>
 <script src="js/rankboost.js"></script>

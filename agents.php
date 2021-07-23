@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="css/agents.css">
 <?php $agentImages = ["jett.png", "raze.png", "breach.png", "omen.png", "brimstone.png", "phoenix.png", "sage.png", "sova.png", "viper.png", "cypher.png", "reyna.png", "killjoy.png", "skye.png", "yoru.png", "astra.png"]; 
         $agentNames = ["Jett", "Raze", "Breach", "Omen", "Brimstone", "Phoenix", "Sage", "Sova", "Viper", "Cypher", "Reyna", "Killjoy", "Skye", "Yoru", "Astra"]; ?>
 <div class="row">
@@ -22,4 +21,3 @@
         </div>
     </div>
 </div>
-<script src="js/agents.js"></script>

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/login.css">
+
 <div class="login-container" id="login-container" style="font-size:14px;">
 	<div class="form-container sign-up-container">
 		<form action="#">
@@ -46,4 +46,3 @@
 		</div>
 	</div>
 </div>
-<script src="js/login.js"></script>

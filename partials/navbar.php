@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="css/combobox2.css">
+<!-- <link rel="stylesheet" href="css/combobox2.css">
 <link rel="stylesheet" href="css/modal.css">
-<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/navbar.css"> -->
 <div class="fixed-top horizontal-rectangle" id="nav">
     <div class="container">
         <div class="row">
@@ -49,4 +49,4 @@
     </div>
 </div>
 
-<script src="js/navbar.js"></script>
+<!-- <script src="js/navbar.js"></script> -->

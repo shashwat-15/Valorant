@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/subnav.css">
+
 <div class="sub-nav">
     <div>
     <div class="row ml-5">
@@ -22,4 +22,3 @@
     </div>
     </div>
 </div>
-<script src="js/subnav.js"></script>
